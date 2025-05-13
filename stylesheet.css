@@ -11,6 +11,31 @@
 .portfolio-content {
   flex-wrap: wrap;
 }
+/* Desktop view (default) */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #001f3f;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none; /* Hidden by default on desktop */
+}
+
 .home-content,
 .photo-wrapper,
 .about-img,
@@ -56,13 +81,18 @@
 html {
   scroll-behavior: smooth;
 }
+.container{
+    max-width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
 body{
     color: #ededed;
     background: #081b29;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    
+    overflow-x: hidden;
     
 }
 section {

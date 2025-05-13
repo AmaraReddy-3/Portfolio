@@ -11,6 +11,7 @@
     </head>
     <body>
         <header class="header">
+            <button class="hamburger">&#9776;</button> <!-- Hamburger icon -->
             <a href="#" class="logo">Portfolio</a>
 
             <nav class="navbar">
@@ -294,6 +295,11 @@
 <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
        
         <script src="main.js"> </script>
+        <script>
+  function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+  }
+</script>
 
     </body>
 </html>
