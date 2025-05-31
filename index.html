@@ -1,341 +1,376 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content = "width=device-width, initial-scale = 1.0">
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="stylesheet.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
-        <style>
-    
-    @media (max-width: 767px) {
-      body > * {
-        display: none !important;
-      }
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale =1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+  </head>
 
-      
-      #mobile-warning {
-        display: flex !important;
-        height: 100vh;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.5rem;
-        text-align: center;
-        padding: 20px;
-        background: #f8d7da;
-        color: #721c24;
-      }
-    }
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Amara Reddy Chinnapareddy</a>
 
-   
-    #mobile-warning {
-      display: none;
-    }
-  </style>
-    </head>
-    
-    <body>
-        <header class="header">
-            <button class="hamburger">&#9776;</button> 
-            <a href="#" class="logo">Portfolio</a>
+      <nav class="navbar" id="navLinks">
+        <a href="#home" style="--i: 1" class="active">Home</a>
+        <a href="#about" style="--i: 2">About</a>
+        <a href="#services" style="--i: 3">Services</a>
+        <a href="#skills" style="--i: 4">Skills</a>
+        <a href="#portfolio" style="--i: 5">Projects</a>
+        <a href="#contact" style="--i: 6">Contact</a>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Amara Reddy Chinnapareddy</h1>
+        <h3>And I'm a <span class="text"></span></h3>
+        <p>
+          I'm a FullStack Developer actively seeking job opportunities. <br />My
+          expertise includes creating responsive websites, and backend
+          development.
+        </p>
+        <div class="home-sci">
+          <a href="tel:7075643132" style="--i: 7"
+            ><i class="bx bx-phone"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/amara-reddy-chinnapareddy-757696246/"
+            style="--i: 8"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://wa.me/917075643132" style="--i: 9"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+          <a href="sms:7075643132" style="--i: 10"
+            ><i class="bx bx-message-rounded-dots"></i
+          ></a>
+        </div>
+        <a href="#about" class="btn-box">More About Me</a>
+      </div>
+      <div class="photo-wrapper">
+        <img
+          src="https://i.postimg.cc/qq8QQ0RM/profilepic.jpg"
+          alt="Profile Photo"
+          class="profile-photo"
+        />
+      </div>
+    </section>
 
-            <nav class="navbar" id="navLinks">
-                  <a href="#home" style="--i:1" class="active">Home</a>
-                  <a href="#about" style="--i:2" class="active">About</a>
-                  <a href="#services" style="--i:3" class="active">Services</a>
-                  <a href="#skills" style="--i:4"  class="active">Skills</a>
-                  <a href="#portfolio" style="--i:5" class="active">Projects</a>
-                  <a href="#contact" style="--i:6" class="active">Contact</a>
-
-            </nav>
-        </header>
-        <section class="home" id="home">
-            <div class="home-content">
-                <h3>Hello, It's Me</h3>
-                <h1>Amara Reddy Chinnapareddy</h1>
-                <h3>And I'm a <span class="text"></span></h3>
-                <p>I'm a web designer actively seeking job opportunities.
-                    <br>My expertise includes creating responsive websites, UI/UX design, and frontend development.
-                </p>
-                <div class="home-sci">
-                    
-                    
-                    <a href="tel:7075643132" style="--i:7"><i class='bx bx-phone' ></i></a>
-                    <a href="https://www.linkedin.com/in/amara-reddy-chinnapareddy-757696246/" style="--i:8"><i class='bx bxl-linkedin' ></i></a>
-                    <a href="https://wa.me/917075643132" style="--i:9"><i class='bx bxl-whatsapp'></i></a>
-                    <a href="sms:7075643132" style="--i:10"><i class='bx bx-message-rounded-dots'></i></a>
-                    
-                    
-                </div>
-                <a href="#about" class="btn-box">More About Me</a>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img
+          src="https://i.postimg.cc/hPQCMfMs/profilepic2.jpg"
+          alt="Profile photo"
+          class="profile-photo2"
+        />
+      </div>
+      <div class="about-text">
+        <h2>About<span>Me</span></h2>
+        <h4>Full Stack Developer!</h4>
+        <p>
+          I am a passionate and motivated Frontend and Backend Developer,
+          currently seeking my first opportunity in the tech industry. As a
+          fresher, I bring a strong foundation in web development with hands-on
+          experience in building responsive user interfaces using HTML, CSS,
+          JavaScript, and ReactJS as well as working with backend technologies
+          like java and python. I am eager to apply my skills in real-world
+          projects, learn from experienced teams, and grow as a full-stack
+          developer. I'm enthusiastic about solving problems through code,
+          learning new technologies, and contributing to meaningful digital
+          experiences.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div class="services" id="services">
+        <div class="container">
+          <h1 class="sub-title">My <span>Services</span></h1>
+          <div class="services-list">
+            <div>
+              <i class="bx bx-code" style="color: #00eeff"></i>
+              <h2>Front-End Development</h2>
+              <p>
+                I create responsive and dynamic user interfaces using HTML, CSS,
+                JavaScript, and frameworks like React.js. I focus on building
+                user-friendly designs that work seamlessly across different
+                devices.
+              </p>
             </div>
-             <div class="photo-wrapper">
-                 <img src="https://i.postimg.cc/qq8QQ0RM/profilepic.jpg" alt="Profile Photo" class="profile-photo">
+            <div>
+              <i class="bx bx-crop" style="color: #00eeff"></i>
+              <h2>Back-End Development with java</h2>
+              <p>
+                I develop server-side applications using Java. I’m familiar with
+                building RESTful APIs, handling databases, and ensuring
+                efficient backend logic.
+              </p>
             </div>
-        </section>
-
-        <section class="about" id="about">
-            <div class="about-img">
-                <img src="https://i.postimg.cc/hPQCMfMs/profilepic2.jpg" alt="Profile photo" class="profile-photo2" />
+            <div>
+              <i class="bx bxl-apple" style="color: #00eeff"></i>
+              <h2>Database Management</h2>
+              <p>
+                I work with relational databases like MySQL and PostgreSQL, as
+                well as NoSQL solutions like MongoDB. I understand data
+                modeling, querying, and integrating databases with back-end
+                services.
+              </p>
             </div>
-             <div class="about-text">
-                <h2>About<span>Me</span></h2>
-                <h4>Full Stack Developer!</h4>
-                <p>I am a passionate and motivated Frontend and Backend Developer, 
-                    currently seeking my first opportunity in the tech industry. 
-                    As a fresher, I bring a strong foundation in web development 
-                    with hands-on experience in building responsive user interfaces 
-                    using HTML, CSS, JavaScript, and ReactJS as well as working with backend 
-                    technologies like java and python. I am eager to apply my skills 
-                    in real-world projects, learn from experienced teams, and grow as a 
-                    full-stack developer. I'm enthusiastic about solving problems through 
-                    code, learning new technologies, and contributing to meaningful digital 
-                    experiences.</p>
-                    
-             </div>
-
-        </section>
-        <section>
-            <div class="services" id="services">
-                <div class="container">
-                    <h1 class="sub-title">My <span>Services</span></h1>
-                    <div class="services-list">
-                        <div >
-                        <i class='bx bx-code' style='color:#00eeff'  ></i>
-                        <h2>Front-End Development</h2>
-                        <p>I create responsive and dynamic user interfaces using HTML, CSS,
-                           JavaScript, and frameworks like React.js. I focus on building
-                            user-friendly designs that work seamlessly across different devices.
-                           
-                    </p>
-                    </div>
-                      <div >
-                        <i class='bx bx-crop' style='color:#00eeff' ></i>
-                        <h2>Back-End Development with java</h2>
-                        <p>I develop server-side applications using Java.
-                            I’m familiar with building RESTful APIs, handling databases,
-                             and ensuring efficient backend logic.
-                            
-                        </p> 
-                      </div>
-                       <div>
-                        <i class='bx bxl-apple' style='color:#00eeff' ></i>
-                        <h2>Database Management</h2>
-                        <p>I work with relational databases like MySQL and PostgreSQL, 
-                          as well as NoSQL solutions like MongoDB. I understand data modeling,
-                           querying, and integrating databases with back-end services.
-                            
-                        </p> 
-                      </div>
-                </div>
-              </div>
-            </div>
-        </section>
-        <h1 class="sub-title">My <span>Skills</span></h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h1 class="sub-title">My <span>Skills</span></h1>
 
     <section>
-          <div class="skills-image" id = "skills">
-            <div class="container1" >
-                <h1 class="heading1">Technical Skills</h1>
-                <div class="Technical-bars">
-                <div class="bar"><i style="color: #c95d2e" class='bx bxl-html5'></i>
-                    <div class="info">
-                        <span>HTML</span>
-                    </div>
-                    <div class="progress-line html">
-                         <span></span>
-                    </div>
-                </div>
-                 <div class="bar"><i style="color: #147bbc"class='bx bxl-css3'></i>
-                    <div class="info">
-                        <span>CSS</span>
-                    </div>
-                    <div class="progress-line css">
-                         <span></span>
-                    </div>
-                </div>
-                 <div class="bar"><i style="color: #b0bc1e" class='bx bxl-javascript'></i>
-                    <div class="info">
-                        <span>JAVASCRIPT</span>
-                    </div>
-                    <div class="progress-line javascript">
-                         <span></span>
-                    </div>
-                </div>
-                 <div class="bar"><i style="color: #c32ec9" class='bx bxl-java'></i>
-                    <div class="info">
-                        <span>JAVA</span>
-                    </div>
-                    <div class="progress-line java">
-                         <span></span>
-                    </div>
-                </div>
-                <div class="bar"><i style="color: #c32ec9" class='bx bxl-python'></i>
-                    <div class="info">
-                        <span>python</span>
-                    </div>
-                    <div class="progress-line python">
-                         <span></span>
-                    </div>
-                </div>
-                
+      <div class="skills-image" id="skills">
+        <div class="container1">
+          <h1 class="heading1">Technical Skills</h1>
+          <div class="Technical-bars">
+            <div class="bar">
+              <i style="color: #c95d2e" class="bx bxl-html5"></i>
+              <div class="info">
+                <span>HTML</span>
               </div>
-            </div> 
-           
-            <div class="container1">
-  <h1 class="heading1">Professional Skills</h1>
-  <div class="radial-bars">
-    <div class="radial-bar">
-      <svg viewBox="0 0 200 200">
-        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
-      </svg>
-      <div class="percentage">90%</div>
-      <div class="text">Creativity</div>
-    </div>
-    <div class="radial-bar">
-      <svg viewBox="0 0 200 200">
-        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-        <circle class="path path-2" cx="100" cy="100" r="80"></circle>
-      </svg>
-      <div class="percentage">70%</div>
-      <div class="text">Communication</div>
-    </div>
-    <div class="radial-bar">
-      <svg viewBox="0 0 200 200">
-        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-        <circle class="path path-3" cx="100" cy="100" r="80"></circle>
-      </svg>
-      <div class="percentage">75%</div>
-      <div class="text">Problem Solving</div>
-    </div>
-    <div class="radial-bar">
-      <svg viewBox="0 0 200 200">
-        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-        <circle class="path path-4" cx="100" cy="100" r="80"></circle>
-      </svg>
-      <div class="percentage">85%</div>
-      <div class="text">Teamwork</div>
-    </div>
-  </div>
- </div>
-</div>
-</section>
-
-<section>
-    <div id="portfolio" >
-        <div class="main-text" id="project">
-            <h1>Latest<span>Projects</span></h1>
-
-        <div class="portfolio-content">
-            <div class="row">
-              <img src="https://i.postimg.cc/xTnhNbkJ/sudoku-4455317-1280.jpg">
-                  <div class="layer">
-                    <h5>Sodoku Solver</h5>
-                    <p>A web-based Sudoku solver built using Java and Python logic. This project allows
-                       users to input a Sudoku puzzle and receive an instant solution. 
-                       It combines frontend interactivity with backend problem-solving algorithms,
-                        showcasing both my UI design and algorithmic thinking skills. Ideal for
-                         demonstrating my full-stack capabilities and logic-based problem-solving approach.</p>
-
-                      <a href="https://github.com/AmaraReddy-3/Advance-Sudoku-Solver"><i class="bx bx-link-external" style="color:aliceblue ;"></i></a>
-                  </div>
+              <div class="progress-line html">
+                <span></span>
+              </div>
             </div>
-             <div class="row">
-              <img src="https://i.postimg.cc/63QNnDTx/pexels-pixabay-259200.jpg">
-                  <div class="layer">
-                    <h5>Console Banking System</h5>
-                    <p> A Java-based console application that simulates core banking 
-                      operations such as account creation, balance inquiry, deposits,
-                       withdrawals, and transaction history. Designed using object-oriented
-                        programming principles, this project demonstrates my understanding
-                         of backend logic, data handling, and user interaction through command-line interfaces.
-                          It’s an ideal showcase of my ability to build structured, scalable systems in Java.</p>
-
-                      <a href="#"><i class="bx bx-link-external" style="color:aliceblue ;"></i></a>
-                  </div>
+            <div class="bar">
+              <i style="color: #147bbc" class="bx bxl-css3"></i>
+              <div class="info">
+                <span>CSS</span>
+              </div>
+              <div class="progress-line css">
+                <span></span>
+              </div>
             </div>
-            <div class="row">
-              <img src="https://i.postimg.cc/4d1mxCqC/pexels-ann-h-45017-15309646.jpg">
-                  <div class="layer">
-                    <h5>Portfolio</h5>
-                    <p>This is a personal portfolio website designed to showcase my skills,
-                       experience, and projects in a clean and professional format. The site
-                        features responsive design, smooth navigation, and a user-friendly
-                         interface to highlight my work and provide visitors with an easy 
-                         way to connect with me.</p>
-
-                      <a href="#"><i class="bx bx-link-external" style="color:aliceblue ;"></i></a>
-                  </div>
+            <div class="bar">
+              <i style="color: #b0bc1e" class="bx bxl-javascript"></i>
+              <div class="info">
+                <span>JAVASCRIPT</span>
+              </div>
+              <div class="progress-line javascript">
+                <span></span>
+              </div>
             </div>
-        </div>  
-              
+            <div class="bar">
+              <i style="color: #c32ec9" class="bx bxl-java"></i>
+              <div class="info">
+                <span>JAVA</span>
+              </div>
+              <div class="progress-line java">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #c32ec9" class="bx bxl-python"></i>
+              <div class="info">
+                <span>python</span>
+              </div>
+              <div class="progress-line python">
+                <span></span>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
 
-<section class="contact" id="contact">
-     <div class="contact-text">
-           <h2>contact <span>Me</span></h2>
-           <p>I'm always open to new opportunities, 
-            collaborations, or simply a good conversation 
-            about tech and development. If you're a recruiter, 
-            company, or fellow developer interested in working
-             together or learning more about what I do, feel
-              free to get in touch! You can reach me via email 
-              or through my social media platforms linked below.
-               I look forward to connecting with you!</p>
-               <div class="contact-list">
-                     <li><i class='bx bxl-gmail' style='color:#00eeff' ></i>
-                            amarareddy7075@gmail.com</li>
+        <div class="container1">
+          <h1 class="heading1">Professional Skills</h1>
+          <div class="radial-bars">
+            <div class="radial-bar">
+              <svg viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percentage">90%</div>
+              <div class="text">Creativity</div>
+            </div>
+            <div class="radial-bar">
+              <svg viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percentage">70%</div>
+              <div class="text">Communication</div>
+            </div>
+            <div class="radial-bar">
+              <svg viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percentage">75%</div>
+              <div class="text">Problem Solving</div>
+            </div>
+            <div class="radial-bar">
+              <svg viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percentage">85%</div>
+              <div class="text">Teamwork</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                     <li><i class='bx bx-phone' style='color:#00eeff' >
-                          </i>7075643132</li>
+    <section>
+      <div id="portfolio">
+        <div class="main-text" id="project">
+          <h1>Latest<span>Projects</span></h1>
 
-               </div>
-               <div class="contact-details">
-                <a href="mailto:amarareddy7075@gmail.com"><i class='bx bxs-envelope'></i></a>
-                <a href="tel:7075643132"><i class='bx bx-phone' ></i></a>
-                <a href="sms:7075643132"><i class='bx bxs-message-rounded-dots' ></i></a>
-                <a href="https://github.com/AmaraReddy-3/Portfolio"><i class='bx bxl-github'></i></a>
-                <a href="https://www.linkedin.com/in/amara-reddy-chinnapareddy-757696246/"><i class='bx bxl-linkedin'></i></a>
-                
+          <div class="portfolio-content">
+            <div class="row">
+              <img
+                src="https://i.postimg.cc/xTnhNbkJ/sudoku-4455317-1280.jpg"
+              />
+              <div class="layer">
+                <h5>Sodoku Solver</h5>
+                <p>
+                  A backend Sudoku solver built using Java. It takes puzzle
+                  input and returns instant solutions using efficient
+                  algorithms. This project highlights my problem-solving and
+                  backend development skills.
+                </p>
+
+                <a href="https://github.com/AmaraReddy-3/Advance-Sudoku-Solver"
+                  ><i class="bx bx-link-external" style="color: aliceblue"></i
+                ></a>
               </div>
-     </div>
-     <div class="contact-form">
-          <form action="">
-            <input type="text"placeholder="Enter your Name" required>
-            <input type="email" placeholder="Enter your mail id"required>
-            <input type="text" placeholder="Enter your subject">
-            <textarea name="" id="" cols="40" rows="10" placeholder="Enter your Message" required> </textarea>
-          <input type="submit" value="submit" class="send">
-          </form>
-     </div>
+            </div>
+            <div class="row">
+              <img
+                src="https://i.postimg.cc/xd3nPqd3/clapperboard-1496440-1280.png"
+              />
+              <div class="layer">
+                <h5>Movies For You</h5>
+                <p>
+                  Movies For U is a responsive movie browsing app built with
+                  React.js. It fetches real-time data from an external API to
+                  display trending and popular movies. Hosted on Firebase, the
+                  app offers a smooth user experience across devices.
+                </p>
 
+                <a href="https://movies-for-u-fa3f0.web.app"
+                  ><i class="bx bx-link-external" style="color: aliceblue"></i
+                ></a>
+              </div>
+            </div>
+            <div class="row">
+              <img
+                src="https://i.postimg.cc/63QNnDTx/pexels-pixabay-259200.jpg"
+              />
+              <div class="layer">
+                <h5>Console Banking System</h5>
+                <p>
+                  A Java-based console application that simulates core banking
+                  operations like account creation, deposits, withdrawals, and
+                  transaction history. Built using object-oriented principles,
+                  it emphasizes backend logic and data handling. This project
+                  showcases my ability to create structured, scalable systems
+                  using Java.
+                </p>
 
-</section>
-<div class="last-text">
-  <p>Developed by Amara Reddy</p>
-</div>
-<a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
-       
-        <script src="main.js"> </script>
-        <script>
-  function toggleMenu() {
-    document.getElementById("navLinks").classList.toggle("active");
-  }
-</script>
- 
-  <div id="mobile-warning">
-    Sorry, this site is not supported on mobile devices. Please visit on a desktop or laptop.
-  </div>
+                <a href="#"
+                  ><i class="bx bx-link-external" style="color: aliceblue"></i
+                ></a>
+              </div>
+            </div>
+            <div class="row">
+              <img
+                src="https://i.postimg.cc/4d1mxCqC/pexels-ann-h-45017-15309646.jpg"
+              />
+              <div class="layer">
+                <h5>Portfolio</h5>
+                <p>
+                  This is a personal portfolio website designed to showcase my
+                  skills, experience, and projects in a clean and professional
+                  format. The site features responsive design, smooth
+                  navigation, and a user-friendly interface to highlight my work
+                  and provide visitors with an easy way to connect with me.
+                </p>
 
-  
-  <div id="main-content">
-    
-  </div>
+                <a href="#"
+                  ><i class="bx bx-link-external" style="color: aliceblue"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </body>
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>contact <span>Me</span></h2>
+        <p>
+          I'm always open to new opportunities, collaborations, or simply a good
+          conversation about tech and development. If you're a recruiter,
+          company, or fellow developer interested in working together or
+          learning more about what I do, feel free to get in touch! You can
+          reach me via email or through my social media platforms linked below.
+          I look forward to connecting with you!
+        </p>
+        <div class="contact-list">
+          <li>
+            <a href="mailto:amarareddy7075@gmail.com"
+              ><i class="bx bxl-gmail" style="color: #66ff66"></i
+            ></a>
+            amarareddy7075@gmail.com
+          </li>
+
+          <li>
+            <a href="tel:7075643132"
+              ><i class="bx bx-phone" style="color: #66ff66"> </i></a
+            >7075643132
+          </li>
+        </div>
+        <div class="contact-details">
+          <a href="mailto:amarareddy7075@gmail.com"
+            ><i class="bx bxs-envelope"></i
+          ></a>
+          <a href="tel:7075643132"><i class="bx bx-phone"></i></a>
+          <a href="sms:7075643132"
+            ><i class="bx bxs-message-rounded-dots"></i
+          ></a>
+          <a href="https://github.com/AmaraReddy-3/Portfolio"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/amara-reddy-chinnapareddy-757696246/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <div class="last-text">
+      <p>Developed by Amara Reddy</p>
+    </div>
+    <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+
+    <script src="main.js"></script>
+
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navbar = document.getElementById("navLinks");
+
+      hamburger.addEventListener("click", () => {
+        navbar.classList.toggle("active");
+      });
+    </script>
+
+    <div id="main-content"></div>
+  </body>
 </html>
